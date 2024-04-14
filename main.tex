@@ -1,0 +1,168 @@
+
+\documentclass[letterpaper,15pt]{article}
+
+% Choose bibliography style for formatting list of publications
+\usepackage[style=ieee,url=false,doi=false,maxbibnames=99,sorting=ydnt,dashed=false]{biblatex}
+\bibliography{papers}
+
+% Choose theme, e.g. black, RedViolet, ForestGreen, MidnightBlue
+\def\theme{black}
+
+% More predefined colors can be found in 
+% https://en.wikibooks.org/wiki/LaTeX/Colors
+
+\usepackage{simplecv}
+
+\boldname{Lizat}{Ivan}{}
+
+\begin{document}
+
+% Heading
+\headinginline{Lizat Ivan}{
+    %Website: \website{dcetin.me} \\
+    Email: \email{lizat.ivan@outlook.de} \\
+    LinkedIn: \linkedin{https://www.linkedin.com/in/ivanlizat/} \\
+    GitHub: \github{https://github.com/lizat-i}
+}
+
+% \headingphoto{Doruk Çetin}{
+%     Website: \website{dcetin.me} \\ 
+%     Email: \email{dcetin@ethz.ch} \\
+%     % LinkedIn: \linkedin{doruk-cetin} \\
+%     GitHub: \github{dcetin}
+% }{photo.png}
+
+% Page One
+\section{Education}
+
+\outerlist{
+
+    % \entrybig{\textbf{Technical University of Munich}}{Munich, DE}
+    % {M.Sc. in Energy \& Process Engineering }{2020\textendash 2023}
+    % \innerlist{
+    %     \entry{Master Thesis: "Predictive-Corrective Smoothed Particle Hydrodynamics (PCISPH) for high-pressure gradient flows"}
+    %     \entry{Semester Thesis: "Smoothed Particle Hydrodynamics Simulation of a Liquid Chromatography Collumn"}
+    % }
+    % \innerlist{
+    % 	\entry{Master Thesis: "Implementation of predictive-corrective lagrangian solver"}
+    % }
+
+    \entrybig
+    {\textbf{Graz University of Technology}}{Graz, AUT}
+    {B.Sc. in Process Engineering}{2016 \textendash 2020}
+    \innerlist{
+        \entry{Thesis: "Hydrogen production with inherent carbon dioxide and nitrogen sequestration"}
+    }
+
+    \entrybig
+    {\textbf{Secondary School for Industrial and Environmental Chemistry}}{Vorarlberg, AUT}
+    {Upper Secondary Technical and Vocational School Matura. }{2012 \textendash 2016}
+    \innerlist{
+        \entry{Thesis: "Effectiveness of catalysts in the production of polyurethane foams."}
+        \entryextra{Accelerated through one years due to prior education and experiences. }
+    }
+    \entrybig
+    {\textbf{Landesbrerufschule Donrbirn 2 }}{Vorarlberg, AUT}
+    {Chemical Laboratory Assistant, Vocational schoo}{ 2007 \textendash 2012}
+
+}
+
+\section{Experience}
+
+\outerlist{
+
+    % \entrybig
+    % {\textbf{Varo Energy Germany GmbH}}{Hamburg, DE}
+    % {Commercial Analyst, Supply and Trading}{Jun 2022 - ongoing}
+    % \innerlist{
+    %     \entry{Exposure management for the german gasoline \& distillates book. }
+    %     \entryextra{Check PnL reports and report explanation to bookleads. }
+    %     \entryextra{Analysis of the german terminal - retail structure and reporting to senior management, analysis included seting up and solving an LP to find optimal routes.}
+    %     \entryextra{Contract management.}
+    % }
+
+    % \entrybig
+    % {\textbf{Technical University of Munich}}{Munich, DE}
+    % {Research Assistant, Chair of Aerodynamics and Fluid Mechanics}{Jun 2022 - Sep 2022}
+    % \innerlist{
+    %     \entry{Implemented a Digital Twin.}
+    %     \entryextra{Developed a Model of Computation (MOC) for recoating step in metal alloy 3D printing, using the DEM library LIGGGHTS and other open source libraries.}
+    %     \entryextra{Containerized the pipeline connecting the in-house smoothed particle dynamics code and the LIGGGHTS library, to optimize workflow, and addressed domain transfer issues.}
+    % }
+
+    % \entrybig
+    % {\textbf{Bertch Energy GmbH & CO KG}}{Vorarlberg, AT}
+    % {Summe Intern, Service Derpartment}{Apr 2020 - Aug 2020}
+    % \innerlist{
+    %     \entry{Transient simulation of a 50 MWh fluidized bed biomass combustion plant }
+    %     \entryextra{Abstracted dynamic subsystems for integration, and reviewed literature for model development.}
+    %     \entryextra{Implemented a linear two-phase combustion chamber model, utilizing Matlab, Simulink, and C.}
+    % }
+
+    % \entrybig
+    % {\textbf{Graz University of Technology}}{Graz, AT}
+    % {Undergraduate Research Fellow, Institute of Process- and Particle Engineering}{Sep 2019 - Sep 2020}
+    % \innerlist{
+    %     \entry{Advanced Scale-Up of an Ionic-Liquid-Based Polypropylene Recycling Process}
+    %     \entryextra{Executed comprehensive literature research, examined the precipitation behavior of polypropylene, and devised reactor design. Implemented ultrasound penetration during precipitation process, leading to a 30\% reduction in solvent requirement}
+    % }
+
+    \entrybig
+    {\textbf{Graz University of Technology}}{Graz, AT}
+    {Student Assistant, Institute of Chemical Engineering and Environmental Technology}{Sep 2018 - Jun 2019}
+    \innerlist{
+        \entry{Pilot Plant Optimization at Container Scale}
+        \entryextra{Supported PhD candidates in research, aiding in process enhancement and material development for the Reformer Sponge Iron Cycle (RESC)}
+        \entryextra{Implemented pressure-swing evacuation leading to a significant reduction in carrier gas usage}
+        \entryextra{Managed carrier material synthesis and post-processing, involving tasks such as milling, sieving, wet-granulating, and sintering}
+    }
+
+    \entrybig
+    {\textbf{Getzner Werkstoffe GmbH}}{Dornbirn, AT}
+    {Research \& Development Intern}{Aug 2014 - Aug 2018}
+    \innerlist{
+        \entry{Diverse R\&D Summer Internships with Leadership Experience}
+        \entryextra{Engaged in comprehensive projects including catalyst research, reaction kinetics exploration, educt chain length/product property interaction, cell structure optimization, and microwave PUR interaction studies}
+        \entryextra{In addition to my own project responsibilities, I provided guidance and supervision to a fellow intern}
+    }
+
+    \entrybig
+    {\textbf{Getzner Werkstoffe GmbH}}{Dornbirn, AT}
+    {Chemical Laboratory Assistant}{Sep 2008 - Mar 2012}
+    \innerlist{
+        \entry{Vocational Training as Chemical Laboratory Assistant}
+        \entryextra{Gained hands-on experience at every stage of the production lifecycle, from preliminary lab-scale tests to quality management adaptations, fostering a rounded understanding of production and new product development}
+    }
+
+}
+
+% \import{sections/}{publications.tex}
+
+% Page Two
+% \import{sections/}{teaching.tex}
+
+
+\section{Skills}
+
+\denseouterlist{
+    \entry{\textbf{Programming Languages: } Python, Matlab, C/C++, MPI}
+    \entry{\textbf{Tools/Technologies: } LaTeX, Git, Docker, Bash-Scripting}
+    \entry{\textbf{Engineering Tools: } Aspen HYSYS, OpenFOAM, LiGGGHTS}
+    \entry{\textbf{Office Tools: } Excel(VBA), Powerpoint, Word, Access}
+    \entry{\textbf{CAD / CAM: }  AutoCAD, Inventor, SolidWorks}
+}
+
+\section{Languages}
+
+\denseouterlist{
+    \entry{\textbf{English: } C2 (native proficiency)}
+    %\entrylabeled[--]{\textbf{GRE: } V: 162/170, Q: 170/170, AW: 4.0/6.0}
+    \entry{\textbf{German: } C1 (advanced proficiency)}
+    \entry{\textbf{Croatian: } C1 (advanced proficiency)}
+}
+
+% \import{sections/}{projects.tex}
+% \import{sections/}{awards.tex}
+% \import{sections/}{volunteering.tex}
+
+\end{document}
